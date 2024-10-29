@@ -19,6 +19,36 @@
          "id": "4",
          "code": "pediatria",
          "name": "Pediatría"
+      },
+      {
+         "id": "5",
+         "code": "ortho",
+         "name": "Ortopedia"
+      },
+      {
+         "id": "6",
+         "code": "neuro",
+         "name": "Neurología"
+      },
+      {
+         "id": "7",
+         "code": "gineco",
+         "name": "Ginecología"
+      },
+      {
+         "id": "8",
+         "code": "general",
+         "name": "Medicina General"
+      },
+      {
+         "id": "9",
+         "code": "psycho",
+         "name": "Psicología"
+      },
+      {
+         "id": "10",
+         "code": "dermat",
+         "name": "Dermatología Avanzada"
       }
    ],
    "medics": [
@@ -51,17 +81,139 @@
             "addressData": "{}",
             "phoneNumber": "5656565"
          }
+      },
+      {
+         "id": "4",
+         "specialtyId": "4",
+         "personalData": {
+            "name": "Ana",
+            "lastName": "Martinez",
+            "addressData": "{}",
+            "phoneNumber": "4545454"
+         }
+      },
+      {
+         "id": "5",
+         "specialtyId": "5",
+         "personalData": {
+            "name": "Carlos",
+            "lastName": "Lopez",
+            "addressData": "{}",
+            "phoneNumber": "8888888"
+         }
+      },
+      {
+         "id": "6",
+         "specialtyId": "6",
+         "personalData": {
+            "name": "Sofia",
+            "lastName": "Torres",
+            "addressData": "{}",
+            "phoneNumber": "9999999"
+         }
+      },
+      {
+         "id": "7",
+         "specialtyId": "7",
+         "personalData": {
+            "name": "Pedro",
+            "lastName": "Ramirez",
+            "addressData": "{}",
+            "phoneNumber": "7777777"
+         }
+      },
+      {
+         "id": "8",
+         "specialtyId": "8",
+         "personalData": {
+            "name": "Lucia",
+            "lastName": "Diaz",
+            "addressData": "{}",
+            "phoneNumber": "6666666"
+         }
+      },
+      {
+         "id": "9",
+         "specialtyId": "9",
+         "personalData": {
+            "name": "Javier",
+            "lastName": "Hernandez",
+            "addressData": "{}",
+            "phoneNumber": "1111111"
+         }
+      },
+      {
+         "id": "10",
+         "specialtyId": "10",
+         "personalData": {
+            "name": "Isabel",
+            "lastName": "Cruz",
+            "addressData": "{}",
+            "phoneNumber": "2222222"
+         }
       }
    ],
    "medicalServices": [
-      
-         {
-            "id": "1",
-            "specialtyId": "1",
-            "medicId": "1"
-         }
-       
-      
+      {
+         "id": "1",
+         "specialtyId": "1",
+         "medicId": "1",
+         "enabled": true
+      },
+      {
+         "id": "2",
+         "specialtyId": "2",
+         "medicId": "2",
+         "enabled": true
+      },
+      {
+         "id": "3",
+         "specialtyId": "3",
+         "medicId": "3",
+         "enabled": true
+      },
+      {
+         "id": "4",
+         "specialtyId": "4",
+         "medicId": "4",
+         "enabled": true
+      },
+      {
+         "id": "5",
+         "specialtyId": "5",
+         "medicId": "5",
+         "enabled": true
+      },
+      {
+         "id": "6",
+         "specialtyId": "6",
+         "medicId": "6",
+         "enabled": true
+      },
+      {
+         "id": "7",
+         "specialtyId": "7",
+         "medicId": "7",
+         "enabled": true
+      },
+      {
+         "id": "8",
+         "specialtyId": "8",
+         "medicId": "8",
+         "enabled": true
+      },
+      {
+         "id": "9",
+         "specialtyId": "9",
+         "medicId": "9",
+         "enabled": true
+      },
+      {
+         "id": "10",
+         "specialtyId": "10",
+         "medicId": "10",
+         "enabled": true
+      }
    ],
    "patients": [
       {
@@ -134,6 +286,5 @@
          "specialtyId": "4",
          "patientId": "4"
       }
-
    ]
 }
