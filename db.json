@@ -1,0 +1,139 @@
+{
+   "specialties": [
+      {
+         "id": "1",
+         "code": "adada",
+         "name": "Odontología"
+      },
+      {
+         "id": "2",
+         "code": "cardio",
+         "name": "Cardiología"
+      },
+      {
+         "id": "3",
+         "code": "derma",
+         "name": "Dermatología"
+      },
+      {
+         "id": "4",
+         "code": "pediatria",
+         "name": "Pediatría"
+      }
+   ],
+   "medics": [
+      {
+         "id": "1",
+         "specialtyId": "1",
+         "personalData": {
+            "name": "Juan",
+            "lastName": "Perez",
+            "addressData": "{}",
+            "phoneNumber": "1212121"
+         }
+      },
+      {
+         "id": "2",
+         "specialtyId": "2",
+         "personalData": {
+            "name": "Maria",
+            "lastName": "Gomez",
+            "addressData": "{}",
+            "phoneNumber": "3434343"
+         }
+      },
+      {
+         "id": "3",
+         "specialtyId": "3",
+         "personalData": {
+            "name": "Luis",
+            "lastName": "Fernandez",
+            "addressData": "{}",
+            "phoneNumber": "5656565"
+         }
+      }
+   ],
+   "medicalServices": [
+      
+         {
+            "id": "1",
+            "specialtyId": "1",
+            "medicId": "1"
+         }
+       
+      
+   ],
+   "patients": [
+      {
+         "id": "1",
+         "personalData": {
+            "name": "Carlos",
+            "lastName": "Lopez",
+            "addressData": "111 Maple St, Cityville",
+            "phoneNumber": "8888888"
+         }
+      },
+      {
+         "id": "2",
+         "personalData": {
+            "name": "Sofia",
+            "lastName": "Torres",
+            "addressData": "222 Birch St, Cityville",
+            "phoneNumber": "9999999"
+         }
+      },
+      {
+         "id": "3",
+         "personalData": {
+            "name": "Pedro",
+            "lastName": "Ramirez",
+            "addressData": "333 Cedar St, Cityville",
+            "phoneNumber": "7777777"
+         }
+      },
+      {
+         "id": "4",
+         "personalData": {
+            "name": "Lucia",
+            "lastName": "Diaz",
+            "addressData": "444 Walnut St, Cityville",
+            "phoneNumber": "6666666"
+         }
+      }
+   ],
+   "appointments": [
+      {
+         "id": "1",
+         "dateTime": "2024-10-30T10:00:00",
+         "hour": "10:00",
+         "order": 1,
+         "specialtyId": "1",
+         "patientId": "1"
+      },
+      {
+         "id": "2",
+         "dateTime": "2024-10-30T11:00:00",
+         "hour": "11:00",
+         "order": 2,
+         "specialtyId": "2",
+         "patientId": "2"
+      },
+      {
+         "id": "3",
+         "dateTime": "2024-10-30T12:00:00",
+         "hour": "12:00",
+         "order": 3,
+         "specialtyId": "3",
+         "patientId": "3"
+      },
+      {
+         "id": "4",
+         "dateTime": "2024-10-30T13:00:00",
+         "hour": "13:00",
+         "order": 4,
+         "specialtyId": "4",
+         "patientId": "4"
+      }
+
+   ]
+}
